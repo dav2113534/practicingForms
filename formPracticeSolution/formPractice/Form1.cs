@@ -16,5 +16,10 @@ namespace formPractice
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("This is a form", "Some Form");
+        }
     }
 }
